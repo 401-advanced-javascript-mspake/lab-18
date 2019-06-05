@@ -1,0 +1,24 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "test": "jest --verbose --coverage",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
